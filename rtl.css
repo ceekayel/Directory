@@ -1,0 +1,654 @@
+/*RTL CSS*/
+
+.inner-wrap * { 
+	direction:rtl;
+	unicode-bidi:embed;
+}
+
+/*	--------------------------------------------------
+	:: DIRECTORY
+	-------------------------------------------------- */
+td, th { padding: 5px 8px; }
+ol,ul { margin: 0 30px 15px 0px; }
+body p.phone span { direction: ltr; text-align:right; }
+.form_row .selectbox, .form_row input.input-text, .form_row input[type="date"], .form_row input[type="datetime-local"], .form_row input[type="datetime"], .form_row input[type="email"], .form_row input[type="file"], .form_row input[type="month"], .form_row input[type="number"], .form_row input[type="password"], .form_row input[type="search"], .form_row input[type="tel"], .form_row input[type="text"], .form_row input[type="url"], .form_row select, .form_row textarea, input[type="time"], input[type="week"] { text-align: right; }
+input.input-text, input[type="date"], input[type="datetime-local"], input[type="datetime"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], select, textarea { text-align: right; }
+body .form_row .description, body .form_row span.message_note, body .message_note { text-align: right; }
+
+/* HEADER ---------------------------------------------- */
+#branding, #branding1 { float: right; }
+#sidebar-header { float: left; }
+#site-title, #site-title1 { float: right; }
+.d_location_type_navigation .d_location_navigation_left { float:left; text-align: right }
+.d_location_type_navigation .d_location_navigation_right { float:right; text-align: right }
+div#menu-primary .menu { float:left; }
+span.toggle_handler { left:auto; right:18px; }
+.header-widget-wrap{float: left;}
+
+/* MENU ---------------------------------------------- */
+.menu li:hover ul, .nav_bg .widget-nav-menu li:hover ul { left: auto; right: 0; }
+div#menu-secondary .menu li:first-child a:hover, div#menu-secondary .menu li.current-menu-item:first-child > a, div#menu-secondary .menu li:first-child:hover > a, div#menu-secondary1 .menu li:first-child a:hover, div#menu-secondary1 .menu li.current-menu-item:first-child > a, div#menu-secondary1 .menu li:first-child:hover > a, div#menu-subsidiary .menu li.current-menu-item:first-child > a { border-radius: 0 3px 3px 0; }
+
+body .mega-menu ul.mega { float: right; }
+body .mega-menu ul.mega li, body .mega-menu ul.mega li a { float: right; }
+body .mega-menu ul.mega li .sub .row li a { margin-left: 20px; margin-right: 0; }
+body .mega-menu ul.mega .sub li.mega-hdr li a { background-position: right 3px top 11px; padding: 5px 15px 5px 0; }
+
+.sticky_main .mega_menu_wrap, .sticky_main div#menu-primary, .sticky_main div#menu-secondary, .sticky_main div#menu-secondary1, .sticky_main div#menu-secondary1 { left: 0; right: auto; }
+.sticky_main #branding1 { left: auto; right: 0; }
+
+.menu li li:hover ul, .nav_bg .widget-nav-menu li li:hover ul { left: auto !important; right: 100%!important }
+
+/* MAIN CONTENT ---------------------------------------------- */
+#content { float: right; }
+#sidebar-contact_page_sidebar, #sidebar-front_page, #sidebar-post-detail, #sidebar-post-listing, #sidebar-primary, #sidebar-secondary, #sidebar-woo_page { float: left;}
+.author_social_networks.social_media .social_media_list{ text-align: right;}
+
+/* LISTINGS ------------------------------------------------ */
+/*Blog*/
+.format-aside:before, .format-audio:before, .format-chat:before, .format-gallery:before, .format-image:before, .format-link:before, .format-quote:before, .format-status:before, .format-video:before{right: 0; left: auto;}
+.format-aside, .format-audio, .format-chat, .format-gallery, .format-image, .format-link, .format-quote, .format-status, .format-video{ padding-left: 0; padding-right: 62px;}
+
+body #loop_listing_archive.list .post .entry .listing_rating, body #loop_listing_taxonomy.list .post .entry .listing_rating, body #tmpl-search-results.list .hentry .entry .listing_rating, .user #content .hentry .entry .listing_rating, .user #content .author_cont div[id*="post"] .entry .listing_rating,
+body #loop_event_archive.list .post .entry .listing_rating, body #loop_event_taxonomy.list .post .entry div.listing_rating { float:left; }
+
+/* SINGULAR PAGE ------------------------------ */
+body .entry-content,body.directory-single-page .hentry .entry-header-logo { float: right; }
+body.claimed-listing.directory-single-page .hentry .entry-header-title .entry-title{ margin-right: 0;}
+body .social-media-share li a .count{ border-left: 0; border-right: 1px solid rgba(0, 0, 0, 0.2);}
+body .social-media-share li a .count:before,body .social-media-share li a .count:after{ left: auto; right: -1px;}
+body .social-media-share li a .count:after{ content: '\f104'; right: 1px;}
+
+body .comment-list li > a, .comment-list li > img.avatar{ float: right; margin-right: 0; margin-left: 20px;}
+body .comment-header img.avatar { left: auto; right: -74px; }
+body .comment-meta span.comment-reply { padding: 0 5px 0 0; margin: 2px 10px 0 0; }
+body .comment-meta span.comment-reply:after { left: auto; right: -6px; }
+body .comments_rating span { padding-left: 0; padding-right: 10px; } 
+input.frontend_edit_text.textfield { position: relative; top:-32px; left:-29px; }
+.tmpl_property_agent .agent-top_wrapper .tmpl-agent-photo{ margin-right: 0; margin-left: 5%}
+.wordpress .tabs dd, .wordpress .tabs .tab-title,.single-property .property .entry-header-left, .singular-property .property .entry-header-left{ float: right;}
+.wordpress .tabs .normal{ float: right;}
+.single-property .property .entry-header-right, .singular-property .property .entry-header-right{ float: left; margin-left:30px; }
+.singular-property .entry-header-custom-wrap ul li, .single-property .entry-header-custom-wrap ul li{ margin-right: 0; margin-left: 40px; padding-left: 0; padding-right: 58px;}
+.singular-property .entry-header-custom-wrap ul li i, .single-property .entry-header-custom-wrap ul li i{ left: auto; right: 0;}
+#breadcrumb .sep, .breadcrumb .sep{float: right; display: inline-block; height: auto; width: auto;}
+.breadcrumb-trail > * { float: right; }
+.byline > span { float: none; padding: 0 5px 0 0; }
+.byline > span > * { float: none; padding: 0 5px 0 0; }
+.singular .pos_navigation .post_right a i{ float: right;}
+.singular .pos_navigation .post_left a i{ float: left;}
+/*.singular .pos_navigation .post_left a { padding-left:30px!important;}*/
+/*.singular .pos_navigation .post_right a { padding-right:30px!important; }*/
+.entry-meta .category > span, .entry-meta .category > a,
+.entry-meta .post_tag > span, .entry-meta .post_tag > a { float: right; }
+.entry-meta .category, .entry-meta .post_tag { float: right; }
+.entry-meta .post_tag { margin-right: 10px; }
+
+/* WIDGETS AND SIDEBARS ------------------------------ */
+.widget ul ul { border-left: 0; border-right: 1px dotted rgba(0, 0, 0, 0.13); padding-left: 0; padding-right: 20px; }
+
+body #sidebar-header .search_nearby_widget #searchform { text-align: left; }
+body #sidebar-header .search_nearby_widget #searchform input[type="text"] { text-align: right; }
+
+body .post .post-blog-image { margin: 0 0 0 2.5%; }
+body .widget.listing_post .post .entry-header { margin: 0 -4px 0 0; padding: 0 4px 0 0; }
+body #content .widget.listing_post .post .post-summery a { right: auto; left: 0; }
+
+body #footer .home_page_below_content .subscribe_cont .subscriber_container #newsletter_email { text-align: right; }
+
+body .agent-social-networks a i { padding: 0 0 0 10px; }
+body .agent-social-networks a i:after { right: auto; left: 5px; }
+
+body div.neighborhood_widget ul li .nearby_image { float: right; margin: 3px 0 0 5.5%;}
+body .neighborhood_widget ul li .nearby_content { margin: 0 -4px 0 0; }
+
+body .tevolution_author_listing .featured_agent_list li > a { margin: 5px 0 0 12px; }
+body .tevolution_author_listing .featured_agent_list li .author_info { margin: 0 -4px 0 0; }
+
+body .popular_post ul li a.link_img { margin: 0 0 0 4%; float: right; }
+body .popular_post ul li .post_data { float: right; }
+
+body .recent_comments li > span { left: auto; right: 0; }
+
+body .testimonials_wrap div { background: url("images/realestate/blockquote2.png") no-repeat right 0 top 6px;  padding-left: 0; padding-right: 35px; }
+
+body .popular_post ul li .post_data p .views { border-left: 2px solid rgba(0, 0, 0, 0.2); border-right: 0; padding-left: 8px; padding-right: 0; margin-left: 8px; margin-right: 0; }
+
+body .social_media ul li a { float: right; }
+body .social_media ul li a i { float: right; margin-left: 8px; margin-right: 0; }
+
+body .widget .templatic_twitter_widget li { background-position: right 0 top 11px; padding-left: 0; padding-right: 32px; }
+
+body .widget-twocolumn ul > li > a, .widget-twocolumn ul > li > span{ float: right; margin-right: 0; margin-left: 5%}
+
+/* FOOTER ---------------------------------------------- */
+#footer .search_nearby_widget #searchform input[type="text"], #footer .templatic_advanced_search #searchform input[type="text"], .wrap .sidebar .search_nearby_widget #searchform input[type="text"], .wrap .sidebar .templatic_advanced_search #searchform input[type="text"] { text-align: right; }
+div#menu-footer { float: left; }
+.footer-content { float: right; }
+
+
+/* PAGE TEMPLATES -------------------------------------- */
+.arclist ul { margin: 0 -3% 0 0; }
+.arclist ul li { background-position: right 0 top 22px; padding: 12px 15px 12px 0; margin: 0 3% 0 0;  }
+
+body .form_row input.hasDatepicker { float: right; margin-left: 5px; margin-right: 0; }
+body .ui-datepicker-trigger { float: right; }
+
+.wpcf7-form { float: right; }
+
+td, th { text-align: right; }
+#dir-container { direction: rtl !important; }
+.hide_map_direction { text-align: left; }
+
+/*	--------------------------------------------------
+	:: LISTING
+	-------------------------------------------------- */
+/* MAIN CONTENT -------------------------------------- */
+body.tevolution-directory #content { float: right; }
+
+/* DIRECTORY WIDGETS AND SIDEBARS ------------------------------ */	
+body .widget_loop_taxonomy .widget-title a.more { float: left; }	
+
+/* DIRECTORY LISTING  -------------------------------- */
+body .directory_manager_tab #directory_sorting, body .directory_manager_tab ul.event_type, body .directory_manager_tab ul.view_mode { float: right; margin: 0 8px 0 0 }
+
+.taxonomy-ecategory .sort_options { right: auto; left: 0; }
+ul.sorting_option { margin-left: 0; margin-right: 6px; }
+.widget.listing_post .post .post-blog-image{ float: right;}
+.widget.listing_post .post .post-summery a{ float: none; display: inline-block;}
+p.creditcard, p.byappointment, p.goodkids, p.sale{padding-right: 22px; padding-left: 0;}
+p.creditcard:before, p.byappointment:before, p.goodkids:before, p.sale:before{ left: auto; right: -4px;}
+
+/*grid*/
+.list .post p.owner_name:before, .grid .post p.owner_name:before, .list .post p.phone:before, .grid .post p.phone:before, .list .post p.address:before, .grid .post p.address:before, .list .post p.time:before, .grid .post p.time:before, .list .post p.event_date:before, .grid .post p.event_date:before, .list .post p.address:before, .grid .post p.address:before, .list .post p.time:before, .grid .post p.time:before, .peoplelink .website:before, .peoplelink .facebook:before, .peoplelink .twitter:before, .peoplelink .linkedin:before, .links .email:before, .links .phone:before, .post .rev_pin ul li.pinpoint:before, .post .rev_pin ul li.review:before{ right: 1px; left: auto; text-align: right;}
+.list .post p.owner_name, .grid .post p.owner_name, .list .post p.phone, .grid .post p.phone, .list .post p.address, .grid .post p.address, .list .post p.time, .grid .post p.time, .rev_pin ul li.review, .rev_pin ul li.pinpoint, .rev_pin ul li.favourite, .list .post p.event_date, .grid .post p.event_date{ padding-left: 0!important; padding-right: 20px!important;}
+body #loop_listing_archive .post .listing_img .featured_tag, body #loop_listing_taxonomy .post .listing_img .featured_tag, body #tmpl-search-results.list .hentry .listing_img .featured_tag, body.user #content .hentry .listing_img .featured_tag, body.hfeed .post .listing_img .featured_tag, body.user #content .author_cont div[id*="post"] .listing_img .featured_tag { left: auto; right: 0; word-wrap: normal; }
+.grid .post, .grid div[id*="post"]{ margin-right: 0; margin-left: 3.9%;}
+.grid .post:nth-child(2n), .grid div[id*="post"]:nth-child(2n){ margin-right: 0;}
+.grid .post:nth-child(3n), .grid div[id*="post"]:nth-child(3n){ margin-left: 0;}
+.post .entry .property-title .property-price{float:left; margin-bottom: 5px;}
+.property-tax-detail .dfeature li{ margin: 0 0 0 14px !important; padding: 0 22px 0 0;}
+.property-tax-detail .dfeature li.bedrooms:before, .property-tax-detail .dfeature li.bathrooms:before, .property-tax-detail .dfeature li.area:before{ left: auto; right: 0; text-align: right;}
+.grid .post .entry .date{ text-align: right;}
+.tmpl_search_classified #tmpl_find_classified .flt-pstatus li input[type="checkbox"]{margin-right: 0; margin-left: 5px;}
+section .grid[id*="_taxonomy"] .post .entry .classified-wrapper .entry-details p.address, section .grid[id*="_taxonomy"] .post .entry .classified-info .classified-tax-detail p.address { padding-right: 0!important;}
+.singular-classified .hentry .entry-header-title .entry-header-left{float: right;}
+.singular-classified .spt-left{float: right;}
+.singular-classified .spt-right{float: left;}
+.singular-classified .entry-header-right{ float: left; padding-left: 0; padding-right: 10px;}
+.singular-classified .classified-price span{float: left;}
+.singular-classified .classified-price + span.price-type{text-align: left;}
+.tmpl_classified_seller .seller-top_wrapper .tmpl-seller-photo{margin-left: 15px; margin-right: 0;}
+.post-left{margin-right: 0; margin-left: 15px;}
+.singular-classified .pos_navigation .post_left a, .singular-classified .pos_navigation .post_right a{direction: ltr;}
+.singular-classified .pos_navigation .post_right a{padding-right: 10px!important}
+.singular-classified .pos_navigation .post_left a{padding-left:10px!important}
+section.list[id*="classified"] .entry h2.entry-title, .widget_loop_classified .list div.entry-title h2.entry-title{float: right;}
+section.list[id*="classified"] .entry > .classified-title > span, .list [class*="classified"] .entry [class*="-title"] > span,.classified-short .short-option .short-date, .classified-short .short-option .short-price{text-align: left; float: left; width: 17%;}
+section.list[id*="classified"] .entry > .classified-title > span:first-of-type, .list [class*="classified"] .entry [class*="-title"] > span:first-of-type{float: right;}
+section .list[id*="_taxonomy"] .post .entry .classified-tax-detail .listing_rating{border-left: 0; border-right: 2px solid #999999;}
+.list .classified_img{margin-right: 0; margin-left: 3%;}
+section .list[id*="_taxonomy"] .post .entry .classified-wrapper .entry-details p.owner_name, section .list[id*="_taxonomy"] .post .entry .classified-info .classified-tax-detail p.owner_name{ padding-right: 10px !important;}
+section .list[id*="_taxonomy"] .post .entry .classified-wrapper .entry-details p.owner_name:after, section .list[id*="_taxonomy"] .post .entry .classified-info .classified-tax-detail p.owner_name:after{display: block;}
+.singular-classified .entry-header-image { float: right; }
+.singular-classified .classified_info-right { float: left; }
+.singular-classified .entry-header-image > #slider.flexslider { float: right; }
+.singular-classified .classified-price { float: left; }
+
+/*list*/
+.list .post .listing_img, .grid .post .listing_img, .list .post .post_fig, .grid .post .post_fig,.post .property_img{ float: right; margin-right: 0; margin-left: 4%;}
+#content .rev_pin ul li a.removefromfav.small_btn, #content .rev_pin li span a.small_btn.addtofav{ padding: 0;}
+.rev_pin ul li{ float: right; margin-right: 0; margin-left: 10px;}
+.rev_pin ul li.favourite:before{ left: auto; right: 0}
+.list .entry h2.entry-title{ padding-right: 0; padding-left: 80px;}
+.list .post .entry .date{ float: right; margin-right: 0; margin-left: 15px;}
+.list .entry h2.entry-title + [class*="rating"] {  bottom: auto; left: 0; position: absolute; right: auto; top: 10px; }
+
+/* DIRECTORY SINGULAR  ------------------------------- */
+body.tevolution-directory .ui-widget-header { padding-left: 0; padding-right: 10px; }
+body.tevolution-directory #listing_description .listing_content { margin-left: 4%; margin-right: 0; }
+
+body.directory-single-page .hentry .entry-header-logo { margin-left: 3%; margin-right: 0; }
+body.directory-single-page .hentry .entry-header-title .entry-title { margin: 0 0 0 20px; }
+body.directory-single-page .hentry .entry-header-title .entry-header-custom-wrap .entry-header-custom-left { border-left: 1px solid rgba(0, 0, 0, 0.1); border-right: 0; padding-left: 20px; padding-right: 0; }
+body.directory-single-page .hentry .entry-header-title .entry-header-custom-wrap .entry-header-custom-right { border-left: 0; border-right: 1px solid #e5e5e5; padding-left: 0; padding-right: 20px; margin-left: 0; margin-right: -5px; }
+
+body.single-property .entry-header-custom-wrap ul li span, .singular-property .entry-header-custom-wrap ul li span{ margin-right: 0;}
+
+body.directory-single-page .share_link { float: left; }
+
+/* SLIDER ---------------------------------------------- */
+.flexslider{direction:ltr;}
+
+
+.filter-options .flit-opt-cols1 { left: 0; right: auto; }
+.filter-options .flit-opt-cols .filter-lable { float: right; }
+.filter-options .flit-opt-cols span.value a i {  margin-left: 0; margin-right: 5px;}
+.value > a { float: right; }
+.more_photos.slides { float: left; width: 1200% !important;}
+
+/* Directory Multiple ----------------------- */
+.singular .bottom_line,.location_fld_wrapper{ float:right;}
+.arclist ul li:before{ left: auto; right: 0;}
+.sort_options{ float: left; left: 0; right: auto;}
+ul.sorting_option:before{ left: 10px; right: auto;}
+
+.cont_wid_area .widget{ float: right; margin: 20px 0 20px 8%;}
+.cont_wid_area .widget:nth-of-type(2n){ margin-left: 0;}
+.all_category_list_widget .category_list ul li{ text-align: right; direction: ltr;}
+body .all_category_list_widget .category_list ul li a { float: right; padding: 0 6px 0 15px; width: auto;}
+body .all_category_list_widget .category_list ul li { padding: 6px 0 6px 15px;  text-align: right;}
+.post-summery a { float: left; }
+
+/* DIRECTORY PREVIEW PAGE  --------------------------- */
+body.tevolution-directory #listing_description .entry-header-image { margin-left: 0; margin-right: -4px; }
+
+/*	--------------------------------------------------
+	:: EVENTS
+	-------------------------------------------------- */
+/* MAIN CONTENT -------------------------------------- */
+body.tevolution-event-manager #content { float: right; }	
+.list .post .event_img, .grid .post .event_img { margin-right: 0; margin-left: 4%; float:right }
+	
+/* EVENT SINGLE PAGE --------------------------------------- */
+body.tevolution-event-manager .ui-widget-header { padding-left: 0; padding-right: 10px; }
+
+body.event-single-page .hentry .entry-header-title .entry-title { margin: 0 0 0 20px; }
+body.event-single-page .hentry .entry-header-title .entry-header-custom-wrap .entry-header-custom-left { border-left: 1px solid rgba(0, 0, 0, 0.1); border-right: 0; }
+body.event-single-page .hentry .entry-header-title .entry-header-custom-wrap .entry-header-custom-right { padding-left: 0; padding-right: 20px; margin-left: 0; margin-right: -4px; }
+body.event-single-page .hentry .entry-header-title .entry-header-custom-wrap p label { margin-left: 5%; margin-right: 0; }
+body.event-single-page .share_link { float: left; }
+
+body .event-organizer .event-organizer-left { margin-left: 4%; margin-right: 0; }
+body .event-organizer .event-organizer-right { margin-left: 0; margin-right: -4px; }
+body .event-organizer .event-organizer-right label { margin-left: 4%; margin-right: 0; }
+
+.attending_event span.fav a.addtofav.attending:before,
+.attended_persons:before { left: auto; right: 0; }
+.attending_event span.fav a.addtofav,
+body .attended_persons  { padding-left: 0; padding-right: 20px; }
+/* EVENT WIDGETS AND SIDEBARS ------------------------------ */
+body .widget_loop_taxonomy .widget-title a.more { float: left; }
+
+body.tevolution-event-manager #widget_location ul.widget_location_nav li { margin-left: 3%; margin-right: 0; }
+
+/* ADMIN DASHBOARD ------------------------------ */
+#tmpl-search-results.list .event-wrapper .entry-title-wrapper, #tmpl-search-results.list .event-wrapper .entry-details, .user .event-wrapper .entry-title-wrapper, .user .event-wrapper .entry-details { padding-left: 0 !important; }
+body #loop_event_archive.list .post .entry h2, body #loop_event_taxonomy.list .post .entry h2, .user .hfeed h2.entry-title { padding-left: 0; padding-right: 0; }
+
+/*Attending Events*/
+body #loop_event_atteding_list .post .entry .date { margin-left: 4%; margin-right: 0; }
+body #loop_event_atteding_list.list .post .entry h2 { float: right; }
+body #loop_event_atteding_list .post .event_img { margin-left: 4%; margin-right: 0; }
+body #loop_event_atteding_list .post .entry p.address { background-position: right 2px top 5px; padding-left: 0; padding-right: 18px; }
+body #loop_event_atteding_list .post .entry p.event_date { background-position: right 0 top 5px; padding-left: 0; padding-right: 18px; }
+body #loop_event_atteding_list .post .entry p.time { background-position: right 0 top 5px; padding-left: 0; padding-right: 18px; }
+body.singular #loop_event_atteding_list .post .bottom_line { width: 100%; }
+.singular .list .entry-title{ display: inline-block !important; width: 100%;}
+#breadcrumb .sep:before, .breadcrumb .sep:before{ content: '\f104';}
+
+
+/*SEARCH PAGE*/
+.user #content .hentry .entry p.phone, body #tmpl-search-results.list .hentry p.phone { background-position: right 0 top 5px; padding-left: 0; padding-right: 18px; }
+.user #content .hentry .entry p.address, body #tmpl-search-results.list .hentry p.address { background-position: right 0 top 5px; padding-left: 0; padding-right: 18px; }
+.user #content .hentry .entry p.time, body #tmpl-search-results.list .hentry p.time { background-position: right 0 top 5px; padding-left: 0; padding-right: 18px; }
+
+div.attending_event { padding: 15px 90px 15px 20px; text-align: right; }
+body .attending_event img { left: auto; right: 20px; }
+body .attending_event span.fav span.span_msg { float: right; margin-right: 0; margin-left: 20px; }
+body .attending_event span.fav a.addtofav { float: right; }
+body .attending_event span.fav a.addtofav.attending { background-position: right 0 top 7px;  } 
+body .attended_persons { padding-left: 0; padding-right: 20px; }
+
+body.tevolution-directory #listing_description .listing_content { margin-left: 2%; }
+body.tevolution-directory .preview_submit_from_data #listing_description .listing_content { margin-left: 0; margin-right: 2%;}
+
+/*	--------------------------------------------------
+	:: LOCATION MANAGER
+	-------------------------------------------------- */
+/* WIDGETS AND SIDEBARS ------------------------------ */	
+
+ 
+/*	--------------------------------------------------
+	:: Tevolution
+	-------------------------------------------------- */
+body.singular .entry-title { margin: 0 0 0 20px; }
+
+/* WIDGETS AND SIDEBARS ------------------------------ */
+body .mw_cat_title span { float: right; margin: 0 1px 0 5px; }
+#toggle_category, #toggle_post_type{ left: 5px; right: auto; padding: 0 0 0 19px;}
+
+body .custom_categories label { padding: 4px 50px 4px 4px; }
+body .custom_categories label input[type="checkbox"] { margin: 0 -25px 0 7px; }
+body #toggle_postID .custom_categories label img { margin: 0 0 0 5px; }
+
+/* SINGULAR PAGE ------------------------------------- */
+body.singular .social-media-share { float: right; }
+body .social-media-share li a { padding: 1px 8px 1px 1px; margin-left: 5px; margin-right: 0; }
+body .social-media-share li a .count { padding: 0 14px 0 10px; margin-left: 0; margin-right: 6px; }
+
+body .claim-post-wraper { float: right; }
+body #content .claim-post-wraper ul li:first-child { margin-right: 0; }
+body #content .claim-post-wraper ul li a:before, body #content .claim-post-wraper ul li.claim_ownership p:before { left: auto; right: -2px; }
+body #content .add_to_my_calendar .calendar a.calendar_show span { background-position: right 0 top 0 !important; padding-left: 0 !important; }
+
+body.directory-single-page .view_counter, body.event-single-page .view_counter { float: right; }
+body.directory-single-page .view_counter p, body.event-single-page .view_counter p { margin: 4px 15px 0 0; }
+
+body .modal_close { left: 12px; right: auto; }
+
+body .related_post_grid_view li { margin-right: 0; }
+
+/* SUBMIT PAGE --------------------------------------- */
+body .user_type label { margin-left: 30px; margin-right: 0; }
+body .cf_checkbox ul { margin: 0 20px 5px 0 !important }
+body .form_row input[type="checkbox"] { margin: 4px 0 0 5px; }
+body .category_label .form_cat input[type="checkbox"], .form_cat_left .form_cat input[type="checkbox"] { margin: -3px 0 0 5px; }
+body form#submit_form .form_row_pkg .package { padding-left: 2%; padding-right: 0; }
+body .package label { padding: 15px 45px 10px 20px; }
+body .package label input[type="radio"] { left: auto; right: 15px; }
+body .form_row #term_and_condition { margin-left: 0; margin-right: -8px; }
+.packageblock .pkg-button{right: auto; left: 15px;}
+
+body .form_row table.img_table #imagelist div { float: right; margin-left: 0; margin-right: 10px; }
+
+body #cat_price_total_price > span, body .form_cat > span { float: right; }
+body .form_row #add_coupon { float: right; }
+.ajax-file-upload-green, .ajax-file-upload-red { margin-right: 42px; }
+#imagelist div p span { left: -6px; right: auto; }
+.packageblock .packagelistitems .panel-default{ padding-right: 0; padding-left: 100px;}
+
+/* AUTHORS --------------------------------------- */
+body .author_custom_post_wrapper ul { margin: 0 10px 0 0; }
+body .author_custom_post_wrapper ul li.normal { margin-left: 10px; margin-right: 0; }
+
+body #content .people_info { float: right; }
+body #content .peoplelisting li img { float: right; margin: 0 0 20px 3%; }
+body #content .people_info .links .profile { float: left; }
+
+body .peoplelink .linkedin { background-position: right -16px top -164px; }
+body .peoplelink .twitter { background-position: right -16px top -119px; }
+body .peoplelink .facebook { background-position: right -16px top -69px; }
+body .peoplelink .website { background-position: right -16px top -17px; }
+
+body .links .phone { background-position: right -19px top -264px; }
+body .links .email { background-position: right -19px top -214px; }
+
+body #content .peoplelisting li h3 span.total_homes { float: left; }
+
+/* SUCCESS PAGE -------------------------------------- */
+body .submited_info ul li p.submit_info_detail { margin: 0 -4px 0 0; }
+
+/* AUTHOR PAGE --------------------------------------- */
+body .author_cont .author_photo { margin: 0 0 30px 5%; }
+body .user_dsb_cf label { padding-left: 2%; padding-right: 0; margin-left: -4px; margin-right: 0; }
+
+body .author_price_details p, body .custom_fields_wrap p { padding-left: 2%; padding-right: 0; }
+body .author_price_details .package_name strong, body .author_price_details .package_expire strong, body .author_price_details .package_price strong { float: right; padding-left: 10px; }
+
+/* LOGIN AND SIGNUP PAGE --------------------------------------- */
+body .login_form_l { border-left: 1px solid rgba(0, 0, 0, 0.1); border-right: 0; padding-left: 4%; padding-right: 0; margin-left: 4%; margin-right: 0; }
+body #sign_up { padding-left: 0; padding-right: 4px; margin-left: 0; margin-right: -4px; }
+body .login_form_l .rember label { border-left: 1px solid rgba(0, 0, 0, 0.1); border-right: 0; padding-left: 10px; padding-right: 0; margin-left: 8px; margin-right: 0; }
+
+.form_row .adv_author input[type="checkbox"] { float: right; }
+.select-wrap span.select { right: 0; left:auto; text-align: right; }
+.select-wrap span.select:after { left: 8px; right: auto; }
+
+.category_list_wrap .columns { float: right; }
+
+/*	--------------------------------------------------
+	:: OTHER PLUGINS
+	-------------------------------------------------- */
+/*shortcodes*/	
+body .shortcodes_wrap .grid_1, body .shortcodes_wrap .grid_2, body .shortcodes_wrap .grid_3, body .shortcodes_wrap .grid_4, body .shortcodes_wrap .grid_5, body .shortcodes_wrap .grid_6 { float: right; }
+body .shortcodes_wrap .grid_1 { padding-left: 2%; padding-right: 0; }
+
+body #content .about_author { padding: 20px 110px 20px 20px; }
+body #content .about_author img { float: right; margin: 0 -92px 5px 18px; }
+body #content .about_box, body #content .alert_box, body #content .download_box, body #content .info_box, body #content .warning_box { padding-left: 0; padding-right: 8%; }
+body #content .about_box img, body #content .alert_box img, body #content .download_box img, body #content .info_box img, body #content .warning_box img { float: right; margin: 0 -7.3% 0 0; }
+
+body .small { float: right; }
+body .small img { margin-right: -29% !important; }
+
+body span.dropcaps { float: right; margin: 0 0 0 7px; }
+body .one_fourth, body .one_half, body .one_third, body .three_fourth, body .two_third { margin-left: 4%; margin-right: 0; }
+
+body .custom_icon_list ul li { padding-left: 0; padding-right: 25px; }
+body .customlist_x ul li:before { left: auto; right: 0; }
+body .custom_icon_list ul li:before { left: auto; right: 0; }
+body .customlist_dot ul li:before { left: auto; right: 0; }
+
+/*Tevolution Comment Moderator*/
+body .moderate_comment-checklist li .form-label { float: right; }
+body .moderate_comment-checklist li .form-control { float: left; margin: 0 30px 0 0; }
+
+/*Front Editor*/
+body.frontend_editor #frontend_coupons_gallery a.delete:before, body.frontend_editor a.delete_upload_file:before, body.frontend_editor .frontend_images_gallery li span a.delete:before{ text-indent: 0px;}
+
+body .submit-progress-steps ul li span { text-align: left; padding: 10px 47px 10px 20px; }
+body .submit-progress-steps ul li span.active:before { border-color: transparent #DDDDDD transparent transparent; left: auto; right: 0; }
+body .submit-progress-steps ul li span.active:after { border-color: transparent #414141 transparent transparent; left: -48px; right: auto; }
+body .submit-progress-steps ul li { margin: 0 -4px 0 2.5%; }
+body .submit-progress-steps ul li:last-child { margin-left: 0; margin-right: -4px; }
+
+body #submit_form div.price { float: right; }
+body #submit_form div.pt_input_select_rent { float: right; margin: 24px 10px 0 0; }
+
+form#commentform #rate div.star-rating-control{ direction: ltr;}
+body .author_rating, .listing_rating { top: auto; bottom: 3px; display: inline-block;}
+
+body #listing_coupons ul li { margin: 0 3.4% 30px -4px; }
+
+body #couponlist div { float: right; }
+
+body.frontend_editor .directory_google_map .map_customizer_wrap #panel, .frontend_editor .map_customizer_wrap #panel { margin-right: -120px; }
+body .pe_advsearch_form .map_category_fullscreen{ left: 0!important; right: auto!important;}
+
+.frontend_editor span.frontend_edit_arrow { background-image:url("images/downarrow-right.png"); left: auto; right: -70px; }
+
+.popular_posts.widget ul li .post_data p .views { float: right; border-left: 2px solid rgba(0, 0, 0, 0.2); float: right; margin-left: 8px; padding-left: 8px; margin-right: 0; padding-right: 0; border-right: 0; }
+
+.hrz-list-filter ul li input[type="checkbox"] { margin:-3px 0px 0 5px; }  
+.hrz-list-filter ul li { padding: 0 0px 0 20px !important; } 
+
+
+.home_page_content .all_category_list_widget .cat-item > a { float: right; margin-left: 8px;}
+.post-summery > p { float: right; clear: both; }
+
+/*twitter*/
+.widget .templatic_twitter_widget li:before {left: auto;right: 4px;}
+
+/* animation */
+.menu > ul > li > ul > li:hover > a, .menu > ul > li > ul > li > ul > li:hover > a, .menu > ul > li > ul > li > ul > li > ul > li:hover > a, .nav_bg .widget-nav-menu > ul > li > ul > li:hover > a, .nav_bg .widget-nav-menu > ul > li > ul > li > ul > li:hover > a, .nav_bg .widget-nav-menu > ul > li > ul > li > ul > li > ul > li:hover > a, body .mega-menu ul.mega li .sub-container.non-mega .sub li:hover a, body .mega-menu ul.mega li .sub-container.non-mega li:hover a, body .mega-menu ul.mega li .sub-container.non-mega li.current-menu-item:hover a, body .mega-menu ul.mega .sub li.mega-hdr li:hover a {  transform: translateX(-4px); }
+
+.feature_label > label { display: table;}
+.feature_label > label span { float: left;}
+.description { direction: ltr; }
+.form_row #term_and_condition { margin-left: 0; margin-right: -3px; }
+.sidebar .templatic_advanced_search #searchform .hasDatepicker { margin-right: 0; }
+
+body #submit_form .form_row .select-wrap { float: right; }
+.form_row.bathrooms,.form_row.bedrooms { float: right; }
+.form_row.bedrooms { margin-right: 0; margin-left: 5%; }
+/*	--------------------------------------------------
+	:: REAL ESTATE
+	-------------------------------------------------- */
+.tmpl_search_property #tmpl_find_property .flt-pstatus li input[type="checkbox"] { margin-right: 0; margin-left: 5px; }
+
+.ajax-file-upload i { margin-right: 0; margin-left: 5px; }
+.property_search #searchproperty .form_row.advt-ptype span.chkbox { display: inline-block; }
+.property_search #searchproperty .form_row.advt-ptype input[type="radio"] + label { padding: 0 24px 0 0; }
+#loop_property_taxonomy.list .post .entry > *, 
+#loop_property_taxonomy.list .post .entry-header > *, 
+#loop_property_taxonomy.list .post .entry > .property-wrapper > *, 
+#loop_property_taxonomy.list .post .entry-header > .property-wrapper > * { padding-right: 0; padding-left: 125px; }
+#loop_property_taxonomy.list .post .entry > .property-title { padding-left: 0; }
+.form_row.bedrooms { float: right; margin-right: 0; margin-left: 5%; }
+.form_row.bathrooms { float: right; margin-left: 5%; margin-right: 0; }
+.gm-style { direction: ltr !important; }
+.entry > p.address { clear: both; }
+.entry > p.custom-cat { width: 100%; float: right; }
+.post .entry .property-tax-detail ul { margin-right: 0; }
+#loop_property_taxonomy .rev_pin ul li { margin-right: 0; }
+.templatic_rating ul, .templatic_rating ul + span { float: right; }
+.templatic_rating ul  { margin-right: 0; margin-left: 10px; }
+form#commentform p.form-textarea, form#commentform p.comment-form-comment, form#commentform .comment_column2 { clear: both; }
+#comments-template  + .realated_post { margin-top: 25px; }
+
+table.calendar_widget td.date_n div span.calendar_tooltip { text-align:right; }
+.post .post-blog-image { float:right; }
+.singular .loop-nav { float:left; }
+.filter_list_wrap, .pfilter_list_wrap, .other_search_criteria_wrap { padding-left:130px; }
+.filter-options .flit-opt-cols { margin-right:0; margin-left:25px; }
+.flit-opt-cols .value { float:right; }
+.panel-title.price > b {
+    float: right;
+}
+.attending_event span.fav a.addtofav.not_attending:before { left:auto; right:0; }
+.form_cat_left .hr_input_radio li input + label { max-width:112px; }
+.singular-classified .spt-left > ul li { float:right; } 
+.sidebar .form_row input.hasDatepicker + .ui-datepicker-trigger { left:40px; }
+.form_row input.hasDatepicker + .ui-datepicker-trigger, .dp input.hasDatepicker + .ui-datepicker-trigger {  border-radius: 4px 0 0 4px;}
+.cat-item i { margin-left:12px; }
+dialog .close-reveal-modal, .reveal-modal .close-reveal-modal, .modal_close { right:auto; left:8px; }  
+body.tevolution-directory #listing_description .entry-header-image { float:left; }  
+.preview_submit_from_data .entry-header-logo { float:right; margin-right:0; margin-left:20px; }
+.rev_pin li.author_name i { margin-left:5px; }
+body.frontend_editor #frontend_coupons_gallery li, body.frontend_editor .frontend_images_gallery li{float: right;}
+.entry-details p{direction:ltr; text-align: right;}
+body .pac-container .pac-item{text-align: right;}
+
+section .list[id*="_taxonomy"] .post .entry .classified-tax-detail .listing_rating{ padding:0 10px 0 0;}
+body .ui-widget-content.ui-autocomplete.ui-front li.instant_search label, .header-widget-wrap #sidebar-header form .ui-widget-content.ui-autocomplete.ui-front li.instant_search label{ float:right; text-align:right;}
+body .ui-widget-content.ui-autocomplete.ui-front li.instant_search span.type, .header-widget-wrap #sidebar-header form .ui-widget-content.ui-autocomplete.ui-front li.instant_search span.type{ float:left;}
+
+#menu-secondary .menu ul li{float: right;}
+.singular-classified .classified_info-right .classified-info p label, .user_dsb_cf > div label, .user_dsb_cf > p label{float: right;}
+#menu-secondary .menu ul li{float: right;}
+article .entry-header h2{
+	float: right!important;
+}
+.author_cont section.list[id*="classified"] .entry h2.entry-title, .author_cont .list [class*="classified"] .entry [class*="-title"] h2.entry-title{
+	padding-right: 0;
+
+}
+.entry-header-title .entry-header-custom-wrap .entry-header-custom-right {
+    border-left: 0 none !important;
+    border-right: 1px solid rgba(0, 0, 0, 0.1) !important;
+    padding-right: 20px;
+}
+.directory-single-page .hentry .entry-header-title .entry-header-custom-wrap .entry-header-custom-left{
+	border:0 !important;
+}
+
+
+.directory-single-page .hentry .entry-header-title .entry-header-custom-wrap p label { float: right !important;}
+.directory-single-page .hentry .entry-header-title .entry-header-custom-wrap .entry-header-custom-left,.directory-single-page .hentry .entry-header-title .entry-header-custom-wrap .entry-header-custom-right{border: 0;}
+.directory-single-page .hentry .entry-header-logo{float: right!important;}
+.accordion .accordion-navigation #loginform .social_login, .accordion .accordion-navigation #loginform .social_login li:first-child{ float: right !important; margin-right:0 !important; text-align: right !important; }
+
+
+
+
+/* Classified Tag
+   ========================================================================== */
+   .slider_carousel .slides li span.classified-status, 
+   .list .featured_tag, 
+   .grid .featured_tag, 
+   .classified_img .classified-status{
+   		right: 0;
+   		left: inherit;
+   }
+
+/* Rating Star
+   ========================================================================== */
+   .listing_rating .directory_rating_row{
+   		float: right;
+   }
+   .star-rating-control *, .star-rating-control{
+	   	direction: inherit;
+	   	unicode-bidi: inherit;
+   }
+   .readtooltipitem{
+   		right: 0;
+   }
+
+/* Footer
+   ========================================================================== */
+   #footer .copyright, #footer .credit,
+   .footer-content{
+		float: right;
+		text-align: right;
+   }
+   #footer .footer_bottom .social_media{
+   		float: left;
+   }
+   div#menu-footer{
+   		float: right;
+   }
+   #footer .menu #menu-footer-items li:first-child{
+   		margin-right: 0;
+   		padding-right: 0;
+   }
+   #footer .menu #menu-footer-items li:last-child{
+   		margin-left: 0;
+   		padding-left: 0;
+   }
+
+/* Sidebar
+   ========================================================================== */
+   .tevolution-event-manager .off-canvas-wrap #content,
+   .tevolution-directory .off-canvas-wrap #content{
+   		float: right;
+   }
+
+/* Author Page
+   ========================================================================== */
+   .user_dsb_cf label{
+   		width: auto;
+   }
+   .user_dsb_cf span{
+   		margin-right: 8px;
+   }
+
+/* Category Page Slider
+   ========================================================================== */
+   .singular-classified .more_photos li{
+   		float: right!important;
+   }
+
+/* Submit Sucess Page
+   ========================================================================== */
+   .posted_successful .days p label{
+   		float: right!important;
+   		margin-right: 0;
+   }
+   .posted_successful .days p span{
+   		padding-right: 10px;
+   }
+
+/* Home Page Category
+   ========================================================================== */
+   .category_list_wrap .columns{
+   		float: right;
+   }
+
+/* Home Page Slider
+   ========================================================================== */
+   .slider_carousel .slides li{
+   		float: right!important;
+   }
+
+/* Mobile Icon In Preview Page
+   ========================================================================== */
+   .singular-classified .contact-no i{
+   	margin-left: 15px;
+   }
+
+/* Detail Page Slider
+   ========================================================================== */
+   .slides{
+   		width: auto!important;
+   }

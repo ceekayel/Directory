@@ -1,0 +1,1615 @@
+Templatic theme - Directory (version : 1.0) 13 Oct 2013
+======================================================================
+
+19th June 2015 (Version 2.0.7)
+-----------------------------------------------------------------------------------------
+Improved : Wp-rest-api plugin which is third party plugin, When active this plugin automatic 
+	   json api functionality going to work.
+	   Make effect in recent review widget.
+-----------------------------------------------------------------------------------------
+\library\functions\widgets.php
+
+-----------------------------------------------------------------------------------------
+Improved : removed unnecessary image sizes
+-----------------------------------------------------------------------------------------
+/functions.php
+
+-----------------------------------------------------------------------------------------
+Fix : RTL design issue.
+      Listing detail page image gallery not showing in RTL.
+-----------------------------------------------------------------------------------------
+/rtl.css
+
+-----------------------------------------------------------------------------------------
+Fix : Hide options when click on "show as dropdown"
+-----------------------------------------------------------------------------------------
+/library/functions/widgets.php
+
+-----------------------------------------------------------------------------------------
+Fix : Homepage banner widget area was not showing on additional frontpage.
+      Mobile view menu issue.
+-----------------------------------------------------------------------------------------
+/library/functions/functions.php
+/header.php
+
+-----------------------------------------------------------------------------------------
+Fix : Review stars was showing broken.
+      MultiRating Design Issue.
+-----------------------------------------------------------------------------------------
+/style.css
+
+-----------------------------------------------------------------------------------------
+Fix : On author page some custom fields was not showing.
+-----------------------------------------------------------------------------------------
+/content.php
+
+-----------------------------------------------------------------------------------------
+Improved : Translation.
+-----------------------------------------------------------------------------------------
+/library/functions/widgets.php
+/languages/templatic-front-end-string.php
+/languages/en_US.po
+/languages/en_US.mo
+
+-----------------------------------------------------------------------------------------
+Fix : When set the "secondary navigation" widget and also set secondary navigation menu then design issue on homepage.
+-----------------------------------------------------------------------------------------
+/library/functions/menus.php
+
+-----------------------------------------------------------------------------------------
+Fix : Inner Page Map Input Design issue.
+      Category Page Pagination Spacing issue.
+      Instant search was not showing categories, tags, listing label.
+-----------------------------------------------------------------------------------------
+/css/style.css
+
+
+
+24th April 2015 (Version 2.0.6)
+-----------------------------------------------------------------------------------------
+Fix : WordPress 4.2 & Security related changes
+-----------------------------------------------------------------------------------------
+/library/functions/functions.php
+/library/templatic_login.php
+
+-----------------------------------------------------------------------------------------
+Improved : Translation.
+-----------------------------------------------------------------------------------------
+/library/functions/widgets.php
+/languages/templatic-front-end-string.php
+/languages/en_US.po
+/languages/en_US.mo
+
+-----------------------------------------------------------------------------------------
+Fix : Multirating Design issue on detail page.
+-----------------------------------------------------------------------------------------
+/style.css
+
+-----------------------------------------------------------------------------------------
+Fix : The widget 'below homepage content' show two times on the mobile homepage, 
+(try to place a widget called T->display Post at below homepage content widget area)
+-----------------------------------------------------------------------------------------
+/footer.php
+
+-----------------------------------------------------------------------------------------
+Fix : Homepage blank when no widget is activated.
+-----------------------------------------------------------------------------------------
+/mobile-templates/mobile-front-page.php
+
+-----------------------------------------------------------------------------------------
+Fix : Category depth was not working when select as dropdown.
+      Add location manager filter if its selected in location settings.
+      Added captcha code for contact us widget in tevolution.
+      Fetch contact us message from tevolution settings.
+-----------------------------------------------------------------------------------------
+/library/functions/widgets.php
+/library/functions/widgets_functions.php
+
+-----------------------------------------------------------------------------------------
+Fix : Set condition if primary menu not set than show secondary menu.
+-----------------------------------------------------------------------------------------
+/page-templates/full-page-map.php
+
+-----------------------------------------------------------------------------------------
+Fix : Menu was not showing on success page.
+-----------------------------------------------------------------------------------------
+/library/functions/menus.php
+
+-----------------------------------------------------------------------------------------
+Fix : Posted in showing two times on post tab on author page.
+-----------------------------------------------------------------------------------------
+/library/functions/functions.php
+
+-----------------------------------------------------------------------------------------
+Fix : RTL design issue.
+-----------------------------------------------------------------------------------------
+/rtl.css
+-----------------------------------------------------------------------------------------
+
+18th March 2015 (Version 2.0.5)
+-----------------------------------------------------------------------------------------
+Improved : Translation.
+-----------------------------------------------------------------------------------------
+/library/classes/process_mailchimp.php
+/library/functions/widgets.php
+/languages/templatic-front-end-string.php
+/languages/en_US.mo
+/languages/en_US.po
+
+-----------------------------------------------------------------------------------------
+Updated : font awesome version changed.
+-----------------------------------------------------------------------------------------
+/functions.php
+
+-----------------------------------------------------------------------------------------
+Fix : In Newsletter widget, Aweber option asked for "Unique List Id:" instead of "List Name".
+-----------------------------------------------------------------------------------------
+/library/functions/widgets.php
+
+-----------------------------------------------------------------------------------------
+Fix : RTL design issue fixed on instant search result.
+-----------------------------------------------------------------------------------------
+/rtl.css
+
+-----------------------------------------------------------------------------------------
+Fix :
+Issue of customizer with mobile view.
+Issue of Footer link color from customizer.
+-----------------------------------------------------------------------------------------
+/library/front-style.php
+
+-----------------------------------------------------------------------------------------
+Fix :
+Styling issue on reply button.
+Issue of pagination design.
+-----------------------------------------------------------------------------------------
+/css/style.css
+
+-----------------------------------------------------------------------------------------
+Fix :
+Styling issue for social icon on detail page.
+Property detail page design issue.
+-----------------------------------------------------------------------------------------
+/style.css
+
+-----------------------------------------------------------------------------------------
+Fix : success message was getting hidden after few seconds.
+-----------------------------------------------------------------------------------------
+/page-templates/contact-us.php
+
+-----------------------------------------------------------------------------------------
+Fix : Category page went to 404 if translation is on.
+-----------------------------------------------------------------------------------------
+/library/functions/widgets.php
+/library/functions/widgets_functions.php
+
+-----------------------------------------------------------------------------------------
+Fix : pagination issue for event tab on home page when we set front page as latest posts.
+-----------------------------------------------------------------------------------------
+/home.php
+
+-----------------------------------------------------------------------------------------
+Fix : Space was not there between "|"  and rating.
+-----------------------------------------------------------------------------------------
+/rtl.css
+
+-----------------------------------------------------------------------------------------
+Fix :
+Blog listing design issue
+Detail page social icon design issue.
+Issue of classified detail page slider design.
+Latest news widget design issue in mobile.
+-----------------------------------------------------------------------------------------
+/style.css
+/css/admin_style.css
+/css/responsive.css
+
+-----------------------------------------------------------------------------------------
+Fix : RTL design issue
+-----------------------------------------------------------------------------------------
+/rtl.css
+/css/admin_style.css
+
+-----------------------------------------------------------------------------------------
+Fix :
+Translation issue with WPML.
+Slider does not inserted in widget area.
+Removed : Space from contact us widget fields.
+-----------------------------------------------------------------------------------------
+/library/functions/widgets.php
+
+-----------------------------------------------------------------------------------------
+Fix : FB developer tools shows some error regarding image sharing When yoast SEO is activated.
+Improved : Made auto install button disabled during auto install is running.
+-----------------------------------------------------------------------------------------
+/functions.php
+
+-----------------------------------------------------------------------------------------
+Fix :
+Issue of img alignment.
+Issue of color in "search by filters" widget.
+Issue of detail page multi rating pop up design.
+Issue of Pagination for first page and last page.
+-----------------------------------------------------------------------------------------
+/css/style.css
+
+-----------------------------------------------------------------------------------------
+Fix : Issue of edit upgrade link shows twice on archive page.
+-----------------------------------------------------------------------------------------
+/content-blog.php
+
+-----------------------------------------------------------------------------------------
+Fix : Design issue on admin page.
+-----------------------------------------------------------------------------------------
+/library/functions/functions.php
+
+-----------------------------------------------------------------------------------------
+Fix : NO IMAGE was not appearing on "Display Posts" widget.
+-----------------------------------------------------------------------------------------
+/library/functions/widgets.php
+
+-----------------------------------------------------------------------------------------
+Fix : Added contact widget in mobile view on contact page.
+-----------------------------------------------------------------------------------------
+/css/admin_style.css
+/mobile-templates/mobile-page.php
+
+-----------------------------------------------------------------------------------------
+Fix : color customizer issue in IE.
+-----------------------------------------------------------------------------------------
+/library/front-style.php
+
+-----------------------------------------------------------------------------------------
+Fix : Auto update was not working.
+-----------------------------------------------------------------------------------------
+/library/functions/admin-functions.php
+/library/auto_update.php
+
+
+
+30th January 2014 (Version 2.0.4)
+-----------------------------------------------------------------------------------------
+Fix.: Post Excerpt
+-----------------------------------------------------------------------------------------
+/content-blog.php
+
+-----------------------------------------------------------------------------------------
+Fix.: Breadcrumb
+-----------------------------------------------------------------------------------------
+/library/extensions/breadcrumb-trail.php
+
+-----------------------------------------------------------------------------------------
+Fix.: Header in responsive mode
+-----------------------------------------------------------------------------------------
+/css/style.css
+
+-----------------------------------------------------------------------------------------
+Fix.: Category URL
+-----------------------------------------------------------------------------------------
+/library/functions/admin-functions.php
+
+-----------------------------------------------------------------------------------------
+Fix.: unnecesary widget area removed from all in one page and logo
+-----------------------------------------------------------------------------------------
+/page-templates/full-page-map.php
+
+-----------------------------------------------------------------------------------------
+Fix.: Autocomplete search on 404
+-----------------------------------------------------------------------------------------
+/functions.php
+/library/functions/functions.php
+
+-----------------------------------------------------------------------------------------
+Fix.: Translation
+-----------------------------------------------------------------------------------------
+/languages/en_US.mo
+/languages/en_US.po
+/languages/templatic-front-end-string.php
+
+-----------------------------------------------------------------------------------------
+Fix.: Sub menu item
+-----------------------------------------------------------------------------------------
+/style.css
+
+-----------------------------------------------------------------------------------------
+Fix.: iPHone address selection
+-----------------------------------------------------------------------------------------
+/functions.php
+
+
+25th December 2014 (Version 2.0.3)
+-----------------------------------------------------------------------------------------
+Fix.: Facebook share gives 404 sometimes
+-----------------------------------------------------------------------------------------
+/functions.php
+
+-----------------------------------------------------------------------------------------
+Fix.: Custom fields on Author page for additional post type
+-----------------------------------------------------------------------------------------
+/content.php
+
+-----------------------------------------------------------------------------------------
+Fix.: Captcha on contact us
+-----------------------------------------------------------------------------------------
+/library/functions/widgets_functions.php
+
+-----------------------------------------------------------------------------------------
+Fix.: email validation as per domain.
+-----------------------------------------------------------------------------------------
+/library/functions/widgets.php
+
+-----------------------------------------------------------------------------------------
+Fix.: File compression problem
+-----------------------------------------------------------------------------------------
+/page-templates/front-page.php
+
+-----------------------------------------------------------------------------------------
+Fix.: Sticky menu
+-----------------------------------------------------------------------------------------
+/js/sticky_menu.js
+
+-----------------------------------------------------------------------------------------
+Fix.: 404 page search to single fields
+-----------------------------------------------------------------------------------------
+/css/style.css
+/library/functions/functions.php
+/searchform.php
+
+-----------------------------------------------------------------------------------------
+Fix.: Fetch images in Blog
+-----------------------------------------------------------------------------------------
+/content-blog.php
+
+-----------------------------------------------------------------------------------------
+Fix.: Translation
+-----------------------------------------------------------------------------------------
+/languages/templatic-front-end-string.php
+/languages/en_US.mo
+/languages/en_US.po
+
+-----------------------------------------------------------------------------------------
+Fix.: Map on archive Page
+-----------------------------------------------------------------------------------------
+/library/functions/functions.php
+
+-----------------------------------------------------------------------------------------
+Fix.: Instant search and other Design fixes 
+-----------------------------------------------------------------------------------------
+/functions.php
+/css/style.css
+/style.css
+/rtl.css
+
+
+29th November 2014 (Version 2.0.2)
+-----------------------------------------------------------------
+Fix: Hyper-link was cling on post detail page titles
+-----------------------------------------------------------------
+library/functions/hooks.php
+--------------------------------------------------------------------------------------
+
+Fix: The Front page set as Posts Page in Reading Settings was not appearing properly
+--------------------------------------------------------------------------------------
+home.php
+css/style.css
+header.php
+archive.php
+--------------------------------------------------------------
+
+Improvement: Sample data content
+-----------------------------------------------------------------
+library/functions/auto_install/auto_install_data.php
+library/functions/auto_install/auto_install.php
+index.php
+------------------------------------------------------------------------------
+
+Fix: Design of mobile menu, color scheme
+-----------------------------------------------------
+css/style.css
+style.css
+library/front-style.php
+css/admin_style.css
+
+------------------------------------------------------------------------------
+Fix: Title repeat issue with WordPress seo by yoast plugin
+------------------------------------------------------------------------------
+library/functions/context.php
+----------------------------------------------------------------
+
+New: Added Advance search page template and a widget area which will be called in that page template
+------------------------------------------------------------------------------------------------------
+functions.php
+header.php
+New file: page-templates/advance-search.php
+--------------------------------------------------------------------------------------------------
+
+Fix: Slider was not working in IE on Windows 8
+-----------------------------------------------------
+js/_supreme.js
+js/_supreme.min.js
+-----------------------------------------------------
+
+Fix - All in one map page was not working properly on iPAD
+-------------------------------------------------------------------------------
+page-templates/full-page-map.php
+-----------------------------------------------------
+
+
+
+
+11th November 2014 (Version 2.0.1)
+----------------------------------------------------------------------------------
+
+Fix - Instant Search widget Design
+----------------------------------------------------------------------------------
+theme-style.css
+
+Fix - Advance Search widget Design Fixes
+----------------------------------------------------------------------------------
+style.css
+
+Fix - String for localization
+------------------------------------------------------------------------------
+languages/templatic-front-end-string.php
+
+
+Remove - Unnecessary files
+Remove - bolgs posts in auto install
+---------------------------------------------------------------------
+directory-sample-posts.php
+functions/auto_install/auto_install_xml.php
+
+Change - Image of no image available
+----------------------------------------------------------------------------------
+library/functions/widgets.php
+
+Fix - Color Customizer was not work properly
+------------------------------------------------------------------------------
+library/front-style.php
+style.css
+
+Fix - Title display two times when activated SEO plugin
+------------------------------------------------------------------------------
+library/functions/context.php
+
+28th October 2014 (Version 2.0)
+-----------------------------------------------------------------------------------------
+Added HTML5 tag
+-----------------------------------------------------------------------------------------
+/style.css
+/page-templates/full-page-map.php
+/index.php
+/comments.php
+/content-blog.php
+/post.php
+/404.php
+/page-templates/front-page.php
+/attachment.php
+/singular.php
+/page.php
+/library/functions/widgets.php
+/library/classes/facebook.php
+/library/functions/widgets.php
+/library/css/style.css
+/library/classes/twitter.php
+
+-----------------------------------------------------------------------------------------
+Added home page above content widget area
+-----------------------------------------------------------------------------------------
+/functions.php
+
+-----------------------------------------------------------------------------------------
+Added home page above content widget area
+-----------------------------------------------------------------------------------------
+/functions.php
+
+-----------------------------------------------------------------------------------------
+FIX - fetch city wise listing in popular posts widget if location manager add-on is activated
+-----------------------------------------------------------------------------------------
+/library/functions/widgets.php
+
+-----------------------------------------------------------------------------------------
+FIX - ie 9 gallery prev next arrow issue
+-----------------------------------------------------------------------------------------
+/rtl.css
+/style.css
+/library/front-style.php
+
+-----------------------------------------------------------------------------------------
+Insert primary and secondary menu in auto install and dismiss button for auto 
+install box
+-----------------------------------------------------------------------------------------
+/library/functions/auto_install/auto_install.php
+
+-----------------------------------------------------------------------------------------
+FIX - add and remove issue from banner widget in customizer
+-----------------------------------------------------------------------------------------
+/library/functions/widgets.php
+
+-----------------------------------------------------------------------------------------
+Add additional widget while auto install 
+-----------------------------------------------------------------------------------------
+/library/functions/auto_install/auto_install_data.php
+
+-----------------------------------------------------------------------------------------
+Remove taxture from customizer
+-----------------------------------------------------------------------------------------
+/library/admin/admin.php
+
+-----------------------------------------------------------------------------------------
+Remove content for wpautop filter on woocommerce page 
+-----------------------------------------------------------------------------------------
+/library/functions/functions.php
+
+-----------------------------------------------------------------------------------------
+call featured image only on blog listing page.
+-----------------------------------------------------------------------------------------
+/functions.php
+/library/admin/admin.php
+/header.php
+/content-blog.php
+/library/supreme.php
+/post.php
+/content-image.php
+
+-----------------------------------------------------------------------------------------
+Load theme style from functions.php instead of static in theme
+-----------------------------------------------------------------------------------------
+/functions.php
+/header.php
+
+-----------------------------------------------------------------------------------------
+Remove search from mobile menu side-nab in megamenu.
+-----------------------------------------------------------------------------------------
+/style.css
+/header.php
+
+-----------------------------------------------------------------------------------------
+Added different home and ohter pages for mobile view
+-----------------------------------------------------------------------------------------
+/mobile-templates/mobile-author.php
+/mobile-templates/mobile-page.php
+/mobile-templates/mobile-front-page.php
+/mobile-templates/mobile-comments.php
+
+-----------------------------------------------------------------------------------------
+FIX - Query take time to load if post type is not exists
+-----------------------------------------------------------------------------------------
+/library/functions/widgets.php
+/library/functions/functions.php
+
+-----------------------------------------------------------------------------------------
+FIX - Query take time to load if post type is not exists
+-----------------------------------------------------------------------------------------
+/library/functions/widgets.php
+/library/functions/functions.php
+
+-----------------------------------------------------------------------------------------
+FIX - check templatic shortcodes plugin not activate condition for include gallery 
+popup script
+-----------------------------------------------------------------------------------------
+/functions.php
+
+-----------------------------------------------------------------------------------------
+FIX - on search page list and grid view option does not work
+-----------------------------------------------------------------------------------------
+/functions.php
+/js/search-view.js
+
+-----------------------------------------------------------------------------------------
+FIX - enqueue sticky-menu script file and deleted sticky meny php file and added
+sticky_menu.js file
+-----------------------------------------------------------------------------------------
+/header.php
+/js/sticky_menu.js
+/js/sticky_menu.php
+
+-----------------------------------------------------------------------------------------
+FIX - remove unnecessary blog page settings from theme settings
+-----------------------------------------------------------------------------------------
+/functions.php
+/library/functions/auto_install/auto_install_data.php
+/library/functions/theme_options.php
+/content-blog.php
+/library/functions/hooks.php
+/content-image.php
+
+-----------------------------------------------------------------------------------------
+FIX - move foundation script from header to footer
+-----------------------------------------------------------------------------------------
+/footer.php
+/header.php
+
+-----------------------------------------------------------------------------------------
+Remove Advertisement widget
+-----------------------------------------------------------------------------------------
+/library/functions/widgets.php
+
+-----------------------------------------------------------------------------------------
+FIX - styling for header in responsive view.
+-----------------------------------------------------------------------------------------
+/style.css
+/library/css/style.css
+
+-----------------------------------------------------------------------------------------
+FIX - use jquery ajax instead of javascript
+-----------------------------------------------------------------------------------------
+/library/functions/widgets.php
+/library/functions/widgets_functions.php
+
+-----------------------------------------------------------------------------------------
+Remove conatct us form and setting of captcha for contact us from theme settings, 
+instead of contact us from contact us widget will work same.
+-----------------------------------------------------------------------------------------
+/page-templates/contact-us.php
+/library/functions/widgets.php
+/library/functions/theme_options.php
+
+-----------------------------------------------------------------------------------------
+Remove author biography
+-----------------------------------------------------------------------------------------
+/page-templates/full-page-map.php
+/library/functions/functions.php
+/library/functions/theme_options.php
+/post.php
+/singular.php
+/page.php
+
+
+----------------------------------------------------------------------------------------
+Remove unnecessary css file and merge
+--------------------------------------------------------------------------------------
+css/admin_backend.css
+
+-----------------------------------------------------------------------------------------
+FIX - include custom.css after it has been edited.
+-----------------------------------------------------------------------------------------
+/header.php
+
+-----------------------------------------------------------------------------------------
+FIX - home page latest post widget list view issue.
+-----------------------------------------------------------------------------------------
+/style.css
+/home.php
+/library/css/style.css
+
+-----------------------------------------------------------------------------------------
+FIX - Remove Default page view option from theme and added theme support option for it.
+-----------------------------------------------------------------------------------------
+/library/functions/functions.php
+/functions.php
+
+-----------------------------------------------------------------------------------------
+FIX - Remove Default page view option from theme and moved to plugin
+-----------------------------------------------------------------------------------------
+/library/functions/functions.php
+
+-----------------------------------------------------------------------------------------
+FIX - Remove Default page view option from theme
+-----------------------------------------------------------------------------------------
+/library/functions/functions.php
+
+-----------------------------------------------------------------------------------------
+FIX - placeholder not working in ie.
+-----------------------------------------------------------------------------------------
+/js/_supreme.min.js
+
+
+-----------------------------------------------------------------------------------------
+Fix: structure and css code improved for grid/list view
+-----------------------------------------------------------------------------------------
+/library/functions/widgets.php
+/style.css
+/footer.php
+/header.php
+/library/css/style.css
+
+-----------------------------------------------------------------------------------------
+Fix: change in structure in comment form
+-----------------------------------------------------------------------------------------
+/comment.php
+
+-----------------------------------------------------------------------------------------
+Fix: string modification as for po mo.
+-----------------------------------------------------------------------------------------
+/languages/templatic-front-end-string.php
+
+-----------------------------------------------------------------------------------------
+Fix: style for tabs for detail, listing, author page.
+-----------------------------------------------------------------------------------------
+/style.css
+
+-----------------------------------------------------------------------------------------
+Added some extra widget area.
+-----------------------------------------------------------------------------------------
+/library/functions/functions.php
+
+-----------------------------------------------------------------------------------------
+Added code to set width globally
+-----------------------------------------------------------------------------------------
+/library/functions/widgets.php
+/style.css
+/header.php
+/index.php
+/archive.php
+/library/functions/widgets_functions.php
+/author.php
+/library/extensions/breadcrumb-trail.php
+/post.php
+/home.php
+/library/css/style.css
+/404.php
+/page-templates/front-page.php
+/page-templates/contact-us.php
+/attachment.php
+/page-templates/archives.php
+/page-templates/filters.php
+/singular.php
+/woocommerce.php
+/page.php
+/search.php
+
+-----------------------------------------------------------------------------------------
+Fix: author page breaks while no listing
+-----------------------------------------------------------------------------------------
+/loop-error.php
+
+-----------------------------------------------------------------------------------------
+Fix: optimize sicky menu code and sitcky menu does not shows when site description is blank.
+-----------------------------------------------------------------------------------------
+/library/functions/functions.php
+/header.php
+/js/sticky_menu.php
+
+-----------------------------------------------------------------------------------------
+Fix: change text color custom fields for listing
+-----------------------------------------------------------------------------------------
+/style.css
+
+-----------------------------------------------------------------------------------------
+Fix: remove some slider option and generate slider thumbnail after slider get loads.
+-----------------------------------------------------------------------------------------
+/functions.php
+/library/functions/widgets.php
+
+-----------------------------------------------------------------------------------------
+Fix: author page social button design was not proper
+-----------------------------------------------------------------------------------------
+/style.css
+
+-----------------------------------------------------------------------------------------
+Fix: Delete unwanted images and replaced with fontawesome
+-----------------------------------------------------------------------------------------
+/images/cal.png
+/images/cancel.png
+/images/date.png
+/images/iconset.png
+/images/location.png
+/images/phone.png
+/images/review.png
+/images/tick.png
+/images/time.png
+/images/border.png
+/images/controls.png
+/images/dummy
+/images/i_rss_s.png
+/images/loading.gif
+/images/noimage.jpg
+/images/noimage100x100.jpg
+/images/process.gif
+/images/realestate/star_normal.png
+/images/realestate/star_rated.png
+/images/realestate/star_rated_half.png
+/images/texture
+/library/images/404.jpg
+/library/images/arrow-left.png
+/library/images/arrow-right.png
+/library/images/arrow-select.png
+/library/images/cancel.png
+/library/images/cart.png
+/library/images/hammer.png
+/library/images/heart-red.png
+/library/images/heart.png
+/library/images/icons.png
+/library/images/iconset.png
+/library/images/mail.png
+/library/images/post_type_aside.png
+/library/images/post_type_audio.png
+/library/images/post_type_chat.png
+/library/images/post_type_gallery.png
+/library/images/post_type_image.png
+/library/images/post_type_link.png
+/library/images/post_type_quote.png
+/library/images/post_type_standard.png
+/library/images/post_type_status.png
+/library/images/post_type_video.png
+/library/images/right.gif
+/library/images/small_icons.png
+/library/images/star.png
+/library/images/tick.png
+/library/images/twitterbird.png
+/library/images/square.png
+
+-----------------------------------------------------------------------------------------
+Fix: Category dropdown in secondory widget area not working
+-----------------------------------------------------------------------------------------
+/library/functions/widgets.php
+
+------------------------------------------------------------------------------------
+Improvement: CSS and PHP code optimization
+Improvement: Replaced icon images with fontawesome icons
+------------------------------------------------------------------------------------
+New File: 
+/js/tmpl-animation.js
+/js/foundation.min.js
+/animation.css
+
+Modified:
+/js/_supreme.min.js
+/js/_supreme.js
+/realestate.css
+/style.css
+
+
+/library/functions/functions.php
+/page-templates/full-page-map.php
+/loop-error.php
+/functions.php
+/header.php
+/search.php
+
+Deleted:
+/js/foundation.offcanvas.js
+-----------------------------------------------------------------------------------------
+Fix: Auto install dismiss button was not working
+-----------------------------------------------------------------------------------------
+/functions.php
+
+-----------------------------------------------------------------------------------------
+Fix: Translation related issues
+-----------------------------------------------------------------------------------------
+/languages/templatic-front-end-string.php
+/languages/admin-en_US.po
+/languages/admin-en_US.mo
+/languages/directory.pot
+/languages/directory-admin.pot
+/languages/en_US.po
+/languages/en_US.mo
+
+-----------------------------------------------------------------------------------------
+Fix: Display parent category name in single page breadcrumb & other breadcrumb issues
+-----------------------------------------------------------------------------------------
+/library/extensions/breadcrumb-trail.php
+/page-templates/archives.php
+
+-----------------------------------------------------------------------------------------
+Fix: Chrome listing image starch
+-----------------------------------------------------------------------------------------
+/archive.php
+
+-----------------------------------------------------------------------------------------
+Fix: Add content div class name for display google map drag results on given class name
+-----------------------------------------------------------------------------------------
+/search.php
+
+-----------------------------------------------------------------------------------------
+Fix:  Information boxes issue with Safari browser Other style issues
+-----------------------------------------------------------------------------------------
+/library/css/style.css
+/library/functions/auto_install/auto_install_xml.php
+
+-----------------------------------------------------------------------------------------
+Fix: In home page slider images were not displaying in post type post
+-----------------------------------------------------------------------------------------
+/library/functions/widgets.php
+
+-----------------------------------------------------------------------------------------
+Fix: Change in image size
+-----------------------------------------------------------------------------------------
+/library/functions/functions.php
+/comment.php
+/library/functions/comments.php
+
+-----------------------------------------------------------------------------------------
+Fix: Removed 'Ukrain' when 'One Country' is set as no cites are there in 'Ukrain'
+-----------------------------------------------------------------------------------------
+/directory-sample-post.xml
+
+
+
+29th July 2014 (Version 1.1.8)
+-----------------------------------------------------------------------------------------
+New Feature: Design compatibility for Right to Left languages
+-----------------------------------------------------------------------------------------
+New file: rtl.css
+functions.php
+library/functions/theme_options.php
+-----------------------------------------------------------------------------------------
+
+New: Added a section with helpful links and sample data installation button
+----------------------------------------------------------------------------------------
+style.css
+library/css/admin_style.css
+library/functions/auto_install/auto_install.php
+----------------------------------------------------------------------------------------
+
+Fix: Widget area below category page header was not proper for new custom post types
+----------------------------------------------------------------------------------------
+library/functions/functions.php
+------------------------------------------------------------------------------------
+
+Fix: Total listings number was not showing properly on author page
+------------------------------------------------------------------------------------
+author.php
+------------------------------------------------------------------------------------
+
+Fix: Popular posts widget was not working when we disable the particular post type 
+from Manage Locations section
+------------------------------------------------------------------------------------
+library/functions/loadpopularpost.php
+------------------------------------------------------------------------------------
+
+Added theme name through a function on update notification message strip
+------------------------------------------------------------------------------------
+wp_theme_update.php
+-------------------------------------------------------------------------
+
+Fix: z-index value for menu reduced to solve a compatibility issues
+-----------------------------------------------------------------------------
+library/css/style.css
+-------------------------------------------------------------------------
+
+Fix: Color overwriting correction for child themes
+-------------------------------------------------------------------------
+library/front-style.php
+--------------------------------------------------------
+
+Fix: Width issue in slider
+--------------------------------------------------------
+library/functions/widgets.php
+-----------------------------------------------------------
+
+Fix: Corrected the way a variable was defined with a string
+-------------------------------------------------------------
+languages/templatic-front-end-string.php
+-------------------------------------------------------------
+
+Fix: Some errors were there with Theme check plugin
+-------------------------------------------------------------
+library/functions/auto_install/auto_install.php
+-------------------------------------------------------------
+
+Improvement: Added new hooks
+-----------------------------------
+footer.php
+comment.php
+-----------------------------------
+
+Fix: Solved a compatibility issue with third party social media plugin
+--------------------------------------------------------------------------------
+library/classes/twitter.php
+------------------------------------------------
+
+Change: Updated js file and unminified for ease of use,
+removed an unnecessary alert, slider was not working in RTL mode
+----------------------------------------------------------------------
+js/_supreme.js
+---------------------------------------------------------------
+
+Change: Corrected a label "Reviews are disabled"
+---------------------------------------------------------------
+comments.php
+-------------------------------------------
+
+
+
+10th July 2014 (Version 1.1.7)
+----------------------------------------------------------------------------------------------------------
+Change: Blog listing page design - show blog posts in full width when option to show thumbnail is disabled
+---------------------------------------------------------------------------------------------------------
+
+functions.php
+content-blog.php
+author.php
+library/functions/context.php
+
+
+-------------------------------------------------------------------------------------
+Change: Popular post widget can't be used multiple time on same page.
+-------------------------------------------------------------------------------------
+library/functions/widgets.php
+
+----------------------------------------------------------------------------------------------------
+Change: Make search page compatible to show different design for different post types on search page
+-----------------------------------------------------------------------------------------------------
+loop-search.php
+
+-----------------------------------------------------------------------------------------------------
+Change: When search from advance search without entering search key the search page title was blank, 
+include search criteria
+-----------------------------------------------------------------------------------------------
+loop-meta.php
+loop-search.php
+
+-------------------------------------------------------------------------------------
+Added: New hooks for customization possibilities
+-------------------------------------------------------------------------------------
+footer.php
+library/functions/widgets.php
+
+------------------------------------------------------------------------------------
+Fix: Fetch theme name and plugin name dynamically on theme activation
+-------------------------------------------------------------------------------------
+library/functions/auto_install/auto_install.php
+library/functions/auto_install/auto_install_data.php
+
+-------------------------------------------------------------------------------------
+Fix: Display posts widget was not showing up properly in mobile devices
+-------------------------------------------------------------------------------------
+style.css
+
+---------------------------------------------------------------------------------------
+Fix: City selection was not working properly in mobile view, alignment was not proper
+----------------------------------------------------------------------------------------
+style.css
+library/css/style.css
+
+-------------------------------------------------------------------------------------
+Fix: Sticky menu was not working due to new off canvas menu
+-------------------------------------------------------------------------------------
+js/sticky_menu.php
+header.php
+
+-------------------------------------------------------------------------------------
+Fix: On Listing Detail Pge "Listing Informations" text was not getting translated
+-------------------------------------------------------------------------------------
+languages/templatic-front-end-string.php
+
+---------------------------------------------------------------------------------------------------------------------------------
+Fix: When "Your Latest Posts" option is selected for front page from Reading Settings custom fields were not displaying in listing
+-----------------------------------------------------------------------------------------------------------------------------------
+home.php
+
+-------------------------------------------------------------------------------------------------------
+Fix - From customizer if we disable header text option logo was also getting hidden
+--------------------------------------------------------------------------------------------------------
+header.php
+
+---------------------------------------------------------------------------------------
+Fix: In Display Posts widget when content is hidden title was also getting hidden
+---------------------------------------------------------------------------------------
+library/functions/functions.php
+library/functions/widgets.php
+
+
+4th June 2014 (Version 1.1.6)
+-------------------------------------------------------------------------------------------
+Improvement: Code optimization, made common code blocks for common structures on all pages,
+Added fastclick.js for better experience in mobile devices, 
+Added Off canvas menu for mobile devices
+-------------------------------------------------------------------------------------
+content.php
+content-link.php
+content-quote.php
+content-video.php
+content-aside.php
+content-audio.php
+author.php
+search.php
+library/css/style.css
+attachment.php
+header.php
+home.php
+post.php
+singular.php
+footer.php
+library/functions/functions.php
+library/functions/widgets.php
+index.php
+404.php
+archive.php
+comment.php
+comments.php
+library/classes/facebook.php
+loop-error.php
+loop-meta.php
+loop.php
+page.php
+searchform.php
+woocommerce.php
+style.css
+functions.php
+js/foundation.offcanvas.js
+library/front-style.php
+
+New file added: loop-search.php, content-blog.php
+--------------------------------------------------------------------
+
+Fix: Theme Settings Saved message was not displaying
+--------------------------------------------------------------
+library/functions/theme_options.php
+--------------------------------------------------------------
+
+Improvement: Don't load custom.css if it is blank
+--------------------------------------------------------------
+header.php
+--------------------------------------------------------------
+
+Fix: Search widget was not appearing properly inside Navigation area
+Fix: White bakground was appearing besides tinymce editors
+Fix: Browser was getting crashed in iOS6 devices when we visit the website
+Fix: Safari browser was getting hanged due to gallery on detail page
+-----------------------------------------------------------------------------
+library/css/style.css
+------------------------------------------------------------------
+
+Fix: Tag and Search and author widgets were not coded according to standards
+------------------------------------------------------------------
+library/functions/widgets.php
+------------------------------------------------------------------
+
+Fix: Remove extra post type link from breadcrumb when location 
+manager plugin is deactivated
+Fix: Remove category slug from breadcrumb from category pages
+Fix: Search result page was not displaying the parameter passed in Where field while searching
+------------------------------------------------------------------------------------------------
+library/extensions/breadcrumb-trail.php
+------------------------------------------------------------------
+
+Fix: Display post widget was displaying draft listings with WPML activated
+----------------------------------------------------------------------------
+library/functions/functions.php
+----------------------------------------------------------------------------
+
+Fix: Strings on preview page were not getting translated
+----------------------------------------------------------------
+languages/templatic-front-end-string.php
+----------------------------------------------------------------
+
+
+29th May 2014 (Version 1.1.5)
+-----------------------------------------------------------------------------------------------------------------
+Fix: Theme update notification was showing an update for another Directory theme from WordPress theme repository
+-----------------------------------------------------------------------------------------------------------------
+wp_theme_update.php
+functions.php
+-----------------------------------------------------------------------------
+23rd April 2014 (Version 1.1.4)
+------------------------------------------------------------------------------------
+Improvement: Added Phone icon on event category page with Events plugin activated
+------------------------------------------------------------------------------------
+style.css
+-----------------------------------------------------------------------------
+
+Improvement: Changed code of widgets so that they follow the best practises
+-----------------------------------------------------------------------------
+library/functions/widgets.php
+-----------------------------------------------------------------------------
+
+Improvement: Added current city name inside breadcrumbs on relevant pages
+-----------------------------------------------------------------------------
+library/extensions/breadcrumb-trail.php
+-----------------------------------------------------------------------
+
+Fix: In Testimonial widget, Link text and Link Url option was not working 
+Fix: Search widget was not appearing properly in Navigation area
+Fix: slider bottom line appearance issue
+Fix: Unnecessary border was appearing below slider widget
+-----------------------------------------------------------------------------
+library/css/style.css
+----------------------------------------------------------------
+Fix - Aweber Redirect url was not working in Newsletter widget
+----------------------------------------------------------------
+library/functions/widgets.php
+----------------------------------------------------
+Fix: Contact Us email was not getting translated
+-----------------------------------------------------
+languages/templatic-front-end-string.php
+-----------------------------------------------------------------------------
+
+
+1st April 2014 (Version 1.1.3)
+---------------------------------------------------------------------
+Improvement: Added All in one map and People pages in auto install
+---------------------------------------------------------------------
+functions/auto_install/auto_install_data.php
+-------------------------------------------------------------------------
+Improvement: Display After Header widget area for new custom post type
+-------------------------------------------------------------------------
+functions/theme-functions.php
+-------------------------------------------------------------------------
+Improvement: Code optimization 
+Change: Deleted /functions folder and moved its files to /library/functions/
+----------------------------------------------------------------------------
+header.php
+index.php
+library/functions/i18n.php
+library/supreme.php
+functions.php
+library/admin/meta-boxes.php
+library/functions/widgets.php
+library/admin/admin.php
+library/css/admin_style.css
+library/css/style.css
+library/css/compatible.css
+library/functions/context.php
+library/functions/core-seo.php
+library/functions/functions.php
+library/functions/hooks.php
+library/functions/i18n.php
+library/functions/loadpopularpost.php
+library/functions/menus.php
+library/functions/meta.php
+library/functions/shortcodes.php
+library/extensions/theme-layouts.php
+library/functions/functions.php
+library/functions/template-hierarchy.php
+
+Deleted - functions/admin-style.php
+Deleted - functions/theme-widgets.php
+Deleted - functions/theme-functions.php
+Deleted - library/admin/admin-style.php
+Deleted - library/admin/post-format.php
+Deleted - library/functions/sidebars.php
+Deleted - library/functions/sidebars.php
+Deleted - images/facebook.png
+Deleted - images/rssfeed.png
+Deleted - images/twitter.png
+Deleted - images/youtube.png
+Deleted - library/fonts
+Deleted - library/css/compatible.css
+Deleted - library/images/i_facebook.png
+Deleted - library/images/i_share.png
+Deleted - library/images/i_twitter.png
+
+Added - library/front-style.php
+Added - library/functions/auto_install
+Added - library/functions/auto_install/auto_install.php
+Added - library/functions/auto_install/auto_install_data.php
+Added - library/functions/auto_install/auto_install_xml.php
+
+-------------------------------------------------------
+Fix: Primary menu hover background issue
+Fix: Categories were getting hidden on home page map
+----------------------------------------------------------
+style.css
+New added:/ images/menu-hover-bg.png
+--------------------------------------------------------------
+
+6th March 2014 (Version 1.1.2)
+---------------------------------------------------------------------------------------------
+New Feature: Custom.css editor in backend which will save your CSS customization in database 
+so that you will not have to worry about losing your customization with each updates
+---------------------------------------------------------------------------------------------
+library/functions/functions.php
+library/functions/theme_options.php
+Deleted file: custom.css
+--------------------------------------------------------------------------------------
+
+Tweak: Added help text with cross links to other relevant backend pages
+--------------------------------------------------------------------------------------
+functions/auto_install/auto_install.php
+library/functions/functions.php
+library/functions/theme_options.php
+-----------------------------------------------------------------------------------------
+
+Tweak: Display sample data installation message and cross links on Tevolution Overview page
+------------------------------------------------------------------------------------------
+functions.php
+--------------------------------------------------------------
+
+Fix: Special characters were not rendering properly in Popular posts widget
+---------------------------------------------------------------------------
+library/functions/loadpopularpost.php
+-----------------------------------------------------------------------------
+
+Fix: Blank space was appearing in mobile view with admin bar enabled in header
+------------------------------------------------------------------------------
+footer.php
+------------------------------------------------------------------------------
+
+Fix: Alignment issues in Ratings and Featured listings were not highlighted properly
+------------------------------------------------------------------------------------
+style.css
+---------------------------------------------------------------------------
+
+Fix: Changes in sample data which makes it similar to live demo
+----------------------------------------------------------------------
+functions/auto_install/auto_install_data.php
+----------------------------------------------------------
+
+Tweak: Added Lightbox for WordPress Gallery
+--------------------------------------------------------------
+Modified files:
+
+functions.php
+style.css
+
+New files:
+
+images/border.png
+images/controls.png
+images/loading.gif
+images/loading_background.png
+images/overlay.png
+js/jquery.colorbox-min.js
+-----------------------------------------------------------------
+
+Fix: Display Phone number custom field in Featured Listing widget
+-----------------------------------------------------------------
+functions.php
+------------------------------------------------------------------
+
+Fix: Display a proper title on the return page of payment gateways
+------------------------------------------------------------------
+library/functions/context.php
+------------------------------------------------------------------------ 
+
+Fix: Removed a deprecated function add_submenu_page while adding a main menu item
+----------------------------------------------------------------------------------
+library/functions/functions.php
+----------------------------------------------------------------------------
+
+Tweak: Fetch taxonomy name instead of its slug in the Categories widget so that
+its a bit easy for user to understand
+------------------------------------------------------------------
+library/functions/widgets.php
+--------------------------------------------------
+
+Fix: Corrected plugin name for WPML language filtering conditions
+------------------------------------------------------------------
+library/functions/functions.php
+library/functions/loadpopularpost.php
+library/functions/widgets.php
+--------------------------------------------------
+
+Fix: Design compatibility issue with Gravity forms plugin
+------------------------------------------------------------------
+functions.php
+---------------------------------------------------
+
+
+5th February 2014 (Version 1.1.1)
+------------------------------------------------------------------
+Fix: City header image issue in mobile view
+------------------------------------------
+style.css
+----------------------------------------------------------------------
+Localization Improvement:
+-------------------------------------------------------
+languages/templatic-front-end-string.php
+library/functions/context.php
+page-templates/contact-us.php
+searchform.php
+library/extensions/breadcrumb-trail.php
+loop-error.php
+loop-meta.php
+-----------------------------------------------------------------------------
+Fix: If a child theme is active it will take the main .mo file from there
+----------------------------------------------------------------------------
+functions.php
+-------------------------------------------------------
+
+16th January 2014 (Version 1.1.0)
+----------------------------------------------------------------------------------
+Improvement: Localization Improvements
+----------------------------------------------------------------
+All files of the theme
+-------------------------------------------------------------
+Improvement: Added social sharing options on post detail page
+-------------------------------------------------------------
+style.css
+functions.php
+-------------------------------------------------------------------
+Fix - Comments section used to display only admin's profile picture
+-------------------------------------------------------------------
+functions/theme-functions.php
+----------------------------------------------------------
+
+11th January 2013 (Version 1.0.5)
+----------------------------------------------------------------------
+Improvement: Changes in how custom fields are fetched
+---------------------------------------------------------------------
+13th December 2013 (Version : 1.0.4)
+-----------------------------------------------------------------------------
+Fix: WordPress 3.8 compatibility issue(detail page broken)
+---------------------------------------------------------------
+library/extensions/breadcrumb-trail.php
+---------------------------------------------------
+Improvement: Changed widget titles and descriptions
+----------------------------------------------------
+library/classes/facebook.php
+library/functions/widgets.php
+library/classes/twitter.php
+----------------------------------------------------
+3rd December 2013 (Version : 1.0.3)
+---------------------------------------------------------------------------------------------------
+Improvement : Added Are you a human plugin compatibility with inquiry form and "T>Contact Us" widget.
+----------------------------------------------------------------------------------------------------
+library/functions/widgets.php
+page-templates/contact-us.php
+
+---------------------
+Updated : po-mo files.
+---------------------
+languages/en_US.mo
+languages/en_US.po
+
+-------------------------------------
+Improvement : Added one new texture.
+-------------------------------------
+Modified file :
+library/admin/admin.php
+
+New added files :
+images/texture/icon_texture18.png
+images/texture/tts_texture18.png
+
+--------------------------------------
+Included : Directory auto import xml file.
+--------------------------------------
+New added file :
+functions/auto_install/auto_install_xml.php
+
+----------------------------------------------------------
+FIX : Issue of fetch directory css file for auto update check.
+----------------------------------------------------------
+wp_theme_update.php
+
+-------------------------------------------------------------------------------------------------
+Added a condition to display custom fields in Home Page Featured Listings widget on other pages too.
+-------------------------------------------------------------------------------------------------
+functions.php
+
+-----------------------------------------------------
+FIX :
+Issue of hide search icon when mobile menu open.
+Issue of wordress default gallery image height in ie8.
+twitter widget - follow us link color issue.
+-----------------------------------------------------
+library/css/style.css
+
+------------------------------------------------------
+FIX : Search result message when miles wise not search.
+------------------------------------------------------
+loop-meta.php
+
+---------------------------------------------------------------------------------
+FIX : Moved custom fields fetch query FROM content.php TO author and search page.
+---------------------------------------------------------------------------------
+author.php
+content.php
+search.php
+
+---------------------------------------------------------------------
+FIX :
+Show content limit and more text field open in show content limit option.
+Issue of navigation menu could not stay save.
+---------------------------------------------------------------------
+library/functions/widgets.php
+
+------------------------------------------
+FIX : Get direction result table design issue.
+------------------------------------------
+style.css
+
+---------------------------------------
+FIX : Theme layout box was not coming.
+---------------------------------------
+library/extensions/theme-layouts.php
+
+-----------------------------------------
+FIX : Fetch parent theme name for update.
+-----------------------------------------
+library/templatic_login.php
+
+-----------------------------------------------
+FIX : Removed category from auto install widget.
+-----------------------------------------------
+functions/auto_install/auto_install_data.php
+
+-------------------------------------
+FIX : Issue of SEO title for home page.
+-------------------------------------
+library/functions/context.php
+
+-----------------------------------------
+FIX : Issue of Pagination Prev & Next text.
+-----------------------------------------
+functions/theme-functions.php
+
+-----------------------------
+Updated - font awesome 4.0.3
+-----------------------------
+library/functions/widgets.php
+functions.php
+
+-------------------------------------------------
+FIX : Issue of button color in IE & Slider responsive.
+-------------------------------------------------
+functions/admin-style.php
+library/css/compatible.css
+library/css/style.css
+
+-----------------------------------------------------------------
+Removed two times "your comment is awaiting moderation" message.
+-----------------------------------------------------------------
+comment.php
+
+-----------------------------------------------------------------
+FIX : Issue of preview page and success page as per default layout.
+-----------------------------------------------------------------
+functions/theme-functions.php
+
+----------------------------
+FIX : Recaptcha design issue.
+----------------------------
+library/css/compatible.css
+
+-------------------------
+FIX : Changed auto install.
+-------------------------
+Modified files :
+functions/auto_install/auto_install_data.php
+library/css/admin_style.css
+library/functions/loadpopularpost.php
+
+New added files :
+images/adv_300x250.jpg
+images/adv_728x90.jpg
+images/logo.png
+
+---------------------------------------------------------------
+FIX : Issue of contact us mail, now included wp_redirect function.
+---------------------------------------------------------------
+page-templates/contact-us.php
+
+------------------------------------------------------------
+FIX : Popular post widget was not working with city wise filter.
+------------------------------------------------------------
+library/functions/loadpopularpost.php
+
+--------------------------------------
+FIX : Rating design issue with grid view.
+--------------------------------------
+Modified file :
+style.css
+
+New added files :
+images/dummy/img19.jpg
+images/dummy/img20.jpg
+images/dummy/img21.jpg
+images/dummy/img22.jpg
+
+
+
+20th November 2013 (Version 1.0.2)
+---------------------------------------------------------------------
+Improvement: Localization
+----------------------------------
+Changes in the whole theme
+---------------------------------------------------------------
+Fix: External scripts were not working on SSL enabled websites
+---------------------------------------------------------------
+/library/functions/widgets.php
+/library/functions/widgets.php
+/functions.php
+-----------------------------------------------------------
+Fix- Auto updates were not working properly
+--------------------------------------------
+/wp_theme_update.php
+---------------------------
+15th November 2013 (Version 1.0.1)
+---------------------------------------------------------------------------
+Improvement: Used WP_CONTENT_DIR instead of ABSPATH/wp-content folder path
+--------------------------------------------------------------------------
+/functions/admin-style.php
+/functions/auto_install/auto_install_data.php
+/functions.php
+/library/classes/process_mailchimp.php
+/library/functions/loadpopularpost.php
+/library/functions/widgets.php
+/page-templates/contact-us.php
+--------------------------------------------------------------------
+Improvement: Other performance related improvements in whole theme
+--------------------------------------------------------------------

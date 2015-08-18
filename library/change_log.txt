@@ -1,0 +1,175 @@
+Templatic parent theme - Library   (Initial released version 2.0 on 13th April 2013)
+==================================================================================================================================================================================================================
+4th July 2013 (Version : 2.0.3)
+-----------------------------------------------------------------------------------------------
+FIX : Added Add wrapper for displaying content properly for "listing post" widget and on post listing.
+-----------------------------------------------------------------------------------------------
+functions/widgets.php
+
+------------------------------------
+FIX : Changed the Sidebar area name.
+------------------------------------
+functions/sidebars.php
+
+-----------------------------------------------
+FIX : Design issue of Delete Sample Data button.
+-----------------------------------------------
+css/admin_backend.css
+
+---------------------------------------------------------
+FIX : Issue of map infowindow issue when map size is small.
+---------------------------------------------------------
+functions/widgets.php
+
+----------------------------------------------------------------
+FIX :
+Design issue of background image display to mobile menu for hover.
+Issue of bbpress breadcrumb styles.
+----------------------------------------------------------------
+css/style.css
+
+
+
+29th June 2013 (Version : 2.0.2)
+-------------------------------------
+FIX : Added filter for header right area.
+-------------------------------------
+functions/sidebars.php
+
+-------------------------------------------------------------------------------
+FIX : Default menu of pages did not hide after scroll down when menu get finished.
+-------------------------------------------------------------------------------
+functions/menus.php
+
+-------------------------------------------------------------------------------
+FIX :
+Issue of set height and width of listing post widget as per the selcted image size.
+Issue of contact us mail issue during translation.
+Issue of show gallery as per categories.
+Slider collapse was not working.
+-------------------------------------------------------------------------------
+functions/widgets.php
+
+-------------------------------------------------
+FIX :
+Issue of Price Filter widget design with IE browser.
+Issue of woo commerce star ratings font size.
+-------------------------------------------------
+css/compatible.css
+
+------------------------------------------
+FIX :
+Designing issue of menu with 4th level.
+Issue of Blockquoteleft-right align.
+------------------------------------------
+css/style.css
+
+--------------------------------------------------------------------
+FIX :
+Issue of View counter was permanently disabled from blog detail page.
+Changed message for delete of auto install.
+--------------------------------------------------------------------
+functions/functions.php
+
+----------------------------------------------------------
+FIX : Issue of display theme name in auto update login page.
+----------------------------------------------------------
+templatic_login.php
+
+-----------------------------------------
+FIX : WPML related issue with widgets.
+-----------------------------------------
+classes/twitter.php
+functions/widgets.php
+
+-----------------------------------------------------------------------------------
+FIX : Category was not showing in breadcrumb for woo commerce product detail page.
+-----------------------------------------------------------------------------------
+extensions/breadcrumb-trail.php
+
+---------------------------------------------------------------
+FIX : Added filter to fetch load popular post widget for image size.
+---------------------------------------------------------------
+functions/functions.php
+functions/loadpopularpost.php
+
+
+
+18th June 2013 (Version : 2.0.1)
+-------------------------------------------------------------------
+FIX : Added twitter guide link in "T>Latest twitter" widget in backend.
+-------------------------------------------------------------------
+classes/twitter.php
+
+-----------------------------------------------------------------------
+FIX : Added filter for change in widget description for specific child theme.
+-----------------------------------------------------------------------
+admin/admin.php
+functions/sidebars.php
+
+-------------------------------------------------
+FIX :
+Issue of quote text in testimonial widget.
+Added author name text in quote text action.
+-------------------------------------------------
+functions/widgets.php
+
+--------------------------------------------------------------------------------
+FIX : Added code for twitter version 1.1 changes for "T>latest twitter feed" widget.
+--------------------------------------------------------------------------------
+Modified file :
+classes/twitter.php
+
+New added files:
+classes/Oauth
+classes/Oauth/LICENSE
+classes/Oauth/OAuth.php
+classes/Oauth/twitteroauth.php
+
+------------------------------------------------------------------
+FIX :
+Custom image option was not working, issue of check box for slider.
+Issue of widget area position for sidebar.
+Spacing issue of new slater widget.
+Multipal home page slider issue.
+------------------------------------------------------------------
+functions/sidebars.php
+functions/widgets.php
+
+--------------------------------------------------------------------
+FIX : Issue of show/hide menu after scrolling exceeds its content area.
+--------------------------------------------------------------------
+functions/menus.php
+
+-----------------------------------------------
+FIX :
+Designed 404 page in mobile
+Listing post widget date issue.
+Issue of Popular post image position.
+Remove default font family from site description.
+-----------------------------------------------
+css/style.css
+
+-------------------------------------------
+FIX : Removed browse text from breadcrumb.
+-------------------------------------------
+extensions/breadcrumb-trail.php
+
+----------------------------
+FIX : Added theme guide link.
+----------------------------
+framework_update.php
+
+-------------------------------------
+FIX : Issue of preview customize page.
+-------------------------------------
+functions/functions.php
+
+-----------------------------------------------------------------------
+FIX :
+Changed in Shoppingcart widget for "View cart" and "checkout" button.
+Issue of content width, added wrapper in styling.
+Listing post widget date issue.
+Slider content color issue.
+-----------------------------------------------------------------------
+css/compatible.css

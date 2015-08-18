@@ -1,0 +1,1 @@
+/* Directory theme by templatic*/
