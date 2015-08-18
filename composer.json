@@ -21,7 +21,8 @@
     "composer/installers": "^1.0"
   },
   "suggest": {
-    "wpackagist-plugin/cornerstone": "^0.7.2 required for this theme to operate"
+    "trick-e/tevolution-directory-plugin": " a powerful plugin for this theme",
+    "trick-e/tevolution-location-manager-plugin": " a powerful plugin for this theme"
   },
   "minimum-stability": "stable"
 }
