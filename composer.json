@@ -1,5 +1,5 @@
 {
-  "name": "trick-e/directory-theme",
+  "name": "trick-e/Directory",
   "description": "A Wordpress template called Directory, by Templatic.",
   "license": "proprietary",
   "keywords": ["wordpress","theme","themes", "directory", "Templatic"],
@@ -21,8 +21,9 @@
     "composer/installers": "^1.0"
   },
   "suggest": {
-    "trick-e/tevolution-directory-plugin": " a powerful plugin for this theme",
-    "trick-e/tevolution-location-manager-plugin": " a powerful plugin for this theme"
+    "trick-e/Tevolution": " required - a plugin for this theme",
+    "trick-e/tevolution-directory-plugin": " required - a plugin for this theme",
+    "trick-e/tevolution-location-manager-plugin": " required - a plugin for this theme"
   },
   "minimum-stability": "stable"
 }
